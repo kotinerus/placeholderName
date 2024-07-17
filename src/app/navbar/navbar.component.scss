@@ -1,0 +1,47 @@
+mat-toolbar {
+  display: flex;
+  padding: 0%;
+  height: 10vh;
+  background-color: #d9d9d9;
+
+  .inputSearch {
+    display: flex;
+    height: 100%;
+    flex-grow: 4;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    mat-form-field {
+      width: 90%;
+      border: none !important;
+    }
+  }
+
+  .logoType {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-grow: 1;
+  }
+  .iconButtonsDiv {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-grow: 2;
+    .iconButton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 25%;
+      height: 100%;
+      transform: scale(1.25);
+    }
+  }
+}
+:host ::ng-deep .mdc-text-field--outlined {
+  --mdc-outlined-text-field-container-shape: 30px;
+  background-color: white;
+  border-radius: 30px;
+}
