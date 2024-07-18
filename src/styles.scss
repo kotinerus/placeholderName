@@ -1,10 +1,11 @@
 @use "@angular/material" as mat;
 @use "./utils/my-theme";
+@import "./utils/variables.scss";
 
 @include mat.core();
 
 body {
-  background-color: mat.get-theme-color(my-theme.$light-theme, neutral, 100);
+  background-color: $backgroundColor;
 }
 
 body,
