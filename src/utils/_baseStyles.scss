@@ -1,0 +1,10 @@
+@import "./variables.scss";
+
+.board {
+  background-color: $backgroundComponentColor;
+  margin: 2vh 0.5vw;
+  border-radius: 15px;
+  grid-area: router-outlet;
+  height: 86vh;
+  padding: 1rem 1rem;
+}

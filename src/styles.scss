@@ -1,19 +1,20 @@
 @use "@angular/material" as mat;
 @use "./utils/my-theme";
 @import "./utils/variables.scss";
+@import "./utils/baseStyles.scss";
 
 @include mat.core();
 
 body {
-  background-color: $backgroundColor;
+  background-color: $appBackgroundColor;
 }
 
 body,
 html {
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  // overflow-x: hidden;
+  // overflow-y: hidden;
 }
 * {
   box-sizing: border-box;

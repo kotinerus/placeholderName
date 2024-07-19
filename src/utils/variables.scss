@@ -1,4 +1,9 @@
 @use "@angular/material" as mat;
 @use "./my-theme.scss";
 
-$backgroundColor: mat.get-theme-color(my-theme.$light-theme, neutral, 80);
+$backgroundComponentColor: mat.get-theme-color(
+  my-theme.$light-theme,
+  neutral,
+  80
+);
+$appBackgroundColor: mat.get-theme-color(my-theme.$light-theme, primary, 98);

@@ -1,0 +1,16 @@
+@import "../../utils/variables.scss";
+
+:host {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: $backgroundComponentColor;
+  padding: 1rem;
+  .panelButton {
+    .mat-mdc-fab {
+      background-color: $appBackgroundColor;
+      width: 100%;
+      // color: white;
+    }
+  }
+}

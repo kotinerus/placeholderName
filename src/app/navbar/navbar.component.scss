@@ -3,7 +3,7 @@
 mat-toolbar {
   display: flex;
   height: 10vh;
-  background-color: $backgroundColor;
+  background-color: $backgroundComponentColor;
   .logoType {
     display: flex;
     justify-content: center;
@@ -32,6 +32,6 @@ mat-toolbar {
 }
 :host ::ng-deep .mdc-text-field--outlined {
   --mdc-outlined-text-field-container-shape: 30px;
-  background-color: white;
+  background-color: $appBackgroundColor;
   border-radius: 30px;
 }
